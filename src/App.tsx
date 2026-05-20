@@ -1,7 +1,12 @@
-function App() {
+import './App.css';
+import Clicker from '@components/Clicker/Clicker';
+import PointsDisplay from '@components/PointsDisplay/PointsDisplay';
+
+export default function App() {
   return (
-    <h1>Teto Clicker</h1>
+    <>
+      <Clicker />
+      <PointsDisplay />
+    </>
   );
 }
-
-export default App;
