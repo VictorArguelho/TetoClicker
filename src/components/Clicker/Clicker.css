@@ -1,7 +1,10 @@
 .clicker-button {
-    padding: 5px;
+  padding: 0;
+  border: 5px solid rgb(205, 96, 119);
+  border-radius: 5px;
+  height: 500px;
 }
 
 .clicker-image {
-    width: 500px;
+  height: 100%;
 }

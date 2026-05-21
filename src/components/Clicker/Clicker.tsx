@@ -12,10 +12,8 @@ export default function Clicker() {
   }
 
   return (
-    <div>
-      <button className="clicker-button" onClick={clickHandle}>
-        <img className="clicker-image" src={tetoImage} alt="teto" />
-      </button>
-    </div>
+    <button className="clicker-button" onClick={clickHandle}>
+      <img className="clicker-image" src={tetoImage} alt="teto" />
+    </button>
   );
 }
