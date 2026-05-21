@@ -5,8 +5,8 @@ import PointsDisplay from '@components/PointsDisplay/PointsDisplay';
 export default function App() {
   return (
     <>
-      <Clicker />
       <PointsDisplay />
+      <Clicker />
     </>
   );
 }

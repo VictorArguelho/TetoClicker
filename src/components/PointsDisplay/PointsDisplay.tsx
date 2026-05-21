@@ -8,7 +8,7 @@ export default function PointsDisplay() {
 
   return (
     <div>
-      <h1 className="display-counter">{gameState.getPoints()}</h1>
+      <p className="display-counter text-outline">{gameState.getPoints()}</p>
     </div>
   );
 }

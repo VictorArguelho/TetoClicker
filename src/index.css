@@ -1,0 +1,30 @@
+:root {
+  --text-outline-size: 0.01em;
+}
+
+@font-face {
+  font-family: 'Teto';
+
+  src: url('./assets/tetoFont.ttf') format('truetype');
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Teto';
+  color: rgb(205, 96, 119);
+}
+
+.text-outline {
+  text-shadow:
+    calc(var(--text-outline-size) * -1) calc(var(--text-outline-size) * -1) 0
+      black,
+    0 calc(var(--text-outline-size) * -1) 0 black,
+    var(--text-outline-size) calc(var(--text-outline-size) * -1) 0 black,
+    calc(var(--text-outline-size) * -1) 0 0 black,
+    var(--text-outline-size) 0 0 black,
+    calc(var(--text-outline-size) * -1) var(--text-outline-size) 0 black,
+    0 var(--text-outline-size) 0 black,
+    var(--text-outline-size) var(--text-outline-size) 0 black;
+}
