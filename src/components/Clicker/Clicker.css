@@ -3,8 +3,18 @@
   border: 5px solid rgb(205, 96, 119);
   border-radius: 5px;
   height: 500px;
+
+  transition: transform 0.1s;
 }
 
 .clicker-image {
   height: 100%;
+}
+
+.clicker-button:hover {
+  transform: scale(1.03);
+}
+
+.clicker-button:active {
+  transform: scale(0.97);
 }
