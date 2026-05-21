@@ -1,0 +1,5 @@
+.shop-click {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

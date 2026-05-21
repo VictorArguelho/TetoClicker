@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import '@components/Clicker/Clicker.css';
+import '@components/ShopClicker/Clicker/Clicker.css';
 import tetoImage from '@assets/teto.jpg';
 import PointsContext from '@context/PointsContext';
 
@@ -12,8 +12,10 @@ export default function Clicker() {
   }
 
   return (
-    <button className="clicker-button" onClick={clickHandle}>
-      <img className="clicker-image" src={tetoImage} alt="teto" />
-    </button>
+    <div className="clicker">
+      <button className="clicker-button" onClick={clickHandle}>
+        <img className="clicker-image" src={tetoImage} alt="teto" />
+      </button>
+    </div>
   );
 }

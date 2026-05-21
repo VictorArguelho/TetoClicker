@@ -1,12 +1,12 @@
 import './App.css';
-import Clicker from '@components/Clicker/Clicker';
 import PointsDisplay from '@components/PointsDisplay/PointsDisplay';
+import ShopClicker from '@components/ShopClicker/ShopClicker';
 
 export default function App() {
   return (
     <>
       <PointsDisplay />
-      <Clicker />
+      <ShopClicker />
     </>
   );
 }

@@ -12,6 +12,8 @@
 }
 
 body {
+  margin: 0;
+  
   font-family: 'Teto';
   color: rgb(205, 96, 119);
 
