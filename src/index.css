@@ -19,16 +19,3 @@ body {
 
   background-color: rgb(253, 199, 189);
 }
-
-.text-outline {
-  text-shadow:
-    calc(var(--text-outline-size) * -1) calc(var(--text-outline-size) * -1) 0
-      black,
-    0 calc(var(--text-outline-size) * -1) 0 black,
-    var(--text-outline-size) calc(var(--text-outline-size) * -1) 0 black,
-    calc(var(--text-outline-size) * -1) 0 0 black,
-    var(--text-outline-size) 0 0 black,
-    calc(var(--text-outline-size) * -1) var(--text-outline-size) 0 black,
-    0 var(--text-outline-size) 0 black,
-    var(--text-outline-size) var(--text-outline-size) 0 black;
-}

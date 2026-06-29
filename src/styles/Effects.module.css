@@ -1,0 +1,29 @@
+.bob {
+  animation: bob 5s ease-in-out infinite;
+}
+
+.sway {
+  animation: sway 18s ease-in-out infinite;
+}
+
+@keyframes bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    rotate: -1.2deg;
+  }
+
+  50% {
+    rotate: 1.2deg;
+  }
+}

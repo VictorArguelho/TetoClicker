@@ -1,4 +1,4 @@
-import '@components/ShopClicker/Shop/Shop.css';
+import '@components/MainZone/Shop/Shop.css';
 
 export default function Shop() {
   return (

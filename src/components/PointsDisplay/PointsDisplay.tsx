@@ -1,12 +1,17 @@
-import { useContext } from 'react';
+import { useContext } from "react";
 
-import '@components/PointsDisplay/PointsDisplay.css';
-import PointsContext from '@context/PointsContext';
+import textStyles from "@styles/Text.module.css";
+import effectStyles from "@styles/Effects.module.css";
+
+import styles from "@components/PointsDisplay/PointsDisplay.module.css";
+import PointsContext from "@context/PointsContext";
 
 export default function PointsDisplay() {
   const gameState = useContext(PointsContext);
 
   return (
-    <p className="display-counter text-outline">{gameState.getPoints()}</p>
+    <p className={`${styles.displayCounter} ${textStyles.textOutline} ${effectStyles.sway}`}>
+      {gameState.getPoints()}
+    </p>
   );
 }
